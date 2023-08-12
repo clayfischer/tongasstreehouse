@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Tongass Treehouse | A rainforest retreat near Juneau, Alaska</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+	<link rel="stylesheet" href="styles.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+		$('[data-toggle="popover"]').popover();
+		});
+
+
+	</script>
+
+	<style>
+
+		.dropdown-menu-about 	{ background-color: #ffffff; border: 1px solid #c24c4c;} 
+		.dropdown-menu-welcome 	{ background-color: #ffffff; border: 1px solid #0885d4;}
+		.dropdown-menu-insider 	{ background-color: #ffffff; border: 1px solid #fa7414;}
+		.dropdown-menu-wild 	{ background-color: #ffffff; border: 1px solid #3cab5d;}
+		.dropdown-menu-connect 	{ background-color: #ffffff; border: 1px solid #b462bd;}
+
+
+		.dropdown-submenu-about, 	.dropdown-submenu-about:hover 	{ color: #c24c4c;} 
+		.dropdown-submenu-welcome, 	.dropdown-submenu-welcome:hover { color: #0885d4;}
+		.dropdown-submenu-insider, 	.dropdown-submenu-insider:hover	{ color: #fa7414;}
+		.dropdown-submenu-wild, 	.dropdown-submenu-wild:hover 	{ color: #3cab5d;}
+		.dropdown-submenu-connect, 	.dropdown-submenu-connect:hover { color: #b462bd;}
+
+
+		.dropdown-submenu { font-size: 0.8em; padding-left: 40px; font-weight: bold; }
+	
+		.nav-item { margin-right: 6px; margin-bottom: 5px; }
+
+		.card-body, p { font-size: 1.1em; }
+ 		.card-text { font-size: 0.9em }
+
+
+	.jumbotron-container {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		filter: opacity(60%);
+	}
+
+	.resume-jumbotron {
+		background-image: url(https://content.codecademy.com/courses/asp-dot-net/boots.png);
+	}
+
+	.layer {
+		background-color: #512F1E;
+		position: relative;
+	}
+
+	.jumbotron-header {
+		font-weight: bold;
+	}
+
+	</style>
+</head>
+
+<body>
+	
+	<div class="container-fluid" style="width: 90%">
+
+		<div style="float: right; padding-top: 10px;">
+			
+			<span style=" position: relative; top: 10px; color: #666666; font-size: 1.2em; font-weight: bold;">Orcaview Cabin &nbsp;</span>
+
+			<div style="float: right; padding-top: 10px;">
+				<a href="https://airbnb.com/h/tongasstreehouse" target="_blank"><img src="airbnb.png" height="26" /></a>
+				&nbsp;
+				<!--
+				<span style=" position: relative; top: 10px;">
+				&nbsp;
+				<a href="https://airbnb.com/h/tongasstreehouse" target="_blank"><i class="fa-brands fa-airbnb fa-2x"></i></a>
+				&nbsp;</span>
+				-->
+				<a href="https://www.vrbo.com/3119007" target="_blank"><img src="vrbo.png" height="26" /></a>
+			</div>
+
+			<br /><br />
+			<span style=" position: relative; top: 12px; color: #666666; font-size: 1.2em; font-weight: bold;">Otter Den Studio</span>&nbsp;&nbsp;&nbsp;
+
+			<div style="float: right; padding-top: 10px;">
+				<a href="https://airbnb.com/h/tongasstreehouse-otterden" target="_blank"><img src="airbnb.png" height="26" /></a>
+				&nbsp;
+<!--
+				<span style=" position: relative; top: 10px;">
+				&nbsp;
+				<a href="https://airbnb.com/h/tongasstreehouse-otterden" target="_blank"><i class="fa-brands fa-airbnb fa-2x"></i></a>
+				&nbsp;</span>
+-->
+				<a href="https://www.vrbo.com/3119594" target="_blank"><img src="vrbo.png" height="26" /></a>
+			</div>
+			<br /><br />
+
+
+		</div>
+			<div style="float: right; padding-top: 17px; padding-right: 20px;">
+				<a href="https://www.instagram.com/tongass_treehouse/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+				&nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100089817160481" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+				&nbsp; 
+				<!--
+				<a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+				&nbsp; 
+				-->
+				<a href="https://www.youtube.com/channel/UCIqQymyOHUJcHHOSF_cfeCA" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+				&nbsp;
+			</div>
+
+		<div class="row">
+			<a href="http://www.tongasstreehouse.com"><img src="logo6.png" style="margin-top: 15px; max-width: 450px; z-index:-5; position: relative;" /></a>
+		</div>
+
+		<div class="row" style="margin-bottom: 30px; margin-top: 30px;">
+
+
+			<nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; padding: 0 !important; margin: 0 !important;">
+				<!--
+				<button style="margin-bottom: 10px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item tt-about rounded dropdown">
+							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="#navbarText" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About the Treehouse</a>
+								<div class="dropdown-menu dropdown-menu-about" aria-labelledby="navbarNavDropdown">
+									<a class="dropdown-item" href="about.html#tour">Tour our home</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="">Orcaview Cabin (3 bed/1.5 bath)</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="">Otter Den (studio)</a>
+									<a class="dropdown-item" href="about.html#amenities">Amenities</a>
+									<a class="dropdown-item" href="">How we are different</a>
+									<a class="dropdown-item" href="">Rules and Safety</a>
+									<a class="dropdown-item" href="">Preparations and Provisions</a>
+									<a class="dropdown-item" href="">Our story and the remodel</a>
+								</div>
+							</h5>
+						</li>
+						<li class="nav-item tt-welcome rounded dropdown">
+							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="#navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome to Juneau</a>
+								<div class="dropdown-menu dropdown-menu-welcome" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="">Fun facts about Juneau</a>
+									<a class="dropdown-item" href="">The Typical Tour</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Downtown</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">The Valley</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Out the Road</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Douglas and Surrounds</a>
+									<a class="dropdown-item" href="">Southeast Alaska</a>
+									<a class="dropdown-item" href="">Alaska Natives</a>
+									<a class="dropdown-item" href="">Weather</a>
+								</div>
+							</h5>
+						</li>
+						<li class="nav-item tt-wild-alaska dropdown rounded">
+							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wild Alaska</a>
+								<div class="dropdown-menu dropdown-menu-wild" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="">Flora</a>
+									<a class="dropdown-item" href="">Fauna</a>
+									<a class="dropdown-item" href="">Forest</a>
+									<a class="dropdown-item" href="">Beneath the sea</a>
+									<a class="dropdown-item" href="">The intertidal</a>
+									<a class="dropdown-item" href="">Mountains</a>
+									<a class="dropdown-item" href="">Wetlands and water</a>
+								</div>
+							</h5>
+						</li>
+						<li class="nav-item tt-insider dropdown rounded">
+							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Insider Adventure</a>
+								<div class="dropdown-menu dropdown-menu-insider" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="">Etiquette</a>
+									<a class="dropdown-item" href="">Hiking</a>
+									<a class="dropdown-item" href="">Where to Eat</a>
+									<a class="dropdown-item" href="">What to Cook</a>
+									<a class="dropdown-item" href="">Shop Local</a>
+									<a class="dropdown-item" href="">Off-season + Aurora</a>
+									<a class="dropdown-item" href="">Local Nature Guides</a>
+									<a class="dropdown-item" href="">Fishing</a>
+								</div>
+							</h5>
+						</li>
+						<li class="nav-item dropdown tt-connect-with-us rounded">
+							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect with us</a>
+								<div class="dropdown-menu dropdown-menu-connect" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="">Share your photos!</a>
+									<a class="dropdown-item" href="">Social media</a>
+									<a class="dropdown-item" href="">Plan your adventure</a>
+									<a class="dropdown-item" href="">Come stay with us!</a>
+									<a class="dropdown-item" href="">Contact</a>
+								</div>
+							</h5>
+						</li>
+			
+					</ul>	 
+				</div>
+			</nav> -->
+		</div>
+	</div>
+
+
+	<div class="main-body">
+
+		<div class="container-fluid">
+
+
+		<div class="row">
+			<div class="card col-md-12">
+				<div class="row no-gutters">
+					
+					<div class="card-body col-md-3" style="margin-right: 20px;">
+<!-- SIDEBAR CONTENT -->
+
+
+						<div class="card">
+							<img class="card-img-top" src="media/tongasstreehouse/orcaview/IMG_7661.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Can I book a long-term stay?</h5>
+								<p class="card-text">This is our home and we live here when it's not being rented out. Because of this, we don't do long term stays over summer.</p>
+								<p class="card-text">However, we are open to winter stays between October through April (particularly for the the 3 bed/1.5 bath Orcaview Cabin) if you are looking for a fully-furnished residence.</p>
+							</div>
+						</div>
+<!-- END SIDE BAR CONTENT-->
+					</div>
+
+
+					<div class="col">
+						<div class="card-body">
+							<div class="row">
+
+<!-- BEGIN MAIN CONTENT -->
+
+	
+							<div class="jumbotron">
+								<h1 class="display-4">Welcome to the Orcaview Cabin</h1>
+								<p class="lead">An enchanting hideaway</p>
+								<hr class="my-4">
+								<p>The Tongass Treehouse is a scenic getaway sitting about a hundred feet up in the lush rainforest canopy with the ocean in your front yard. Start your day with coffee while listening to eagles and whale watching from the spacious deck, then enjoy Juneau's best offerings - like remote glacier hikes, beachside fires and fishing or local shopping - all less than 15 minutes away, and end your day relaxing in luxurious comforts of home to watch the sunset as flying squirrels glide tree-to-tree and sea lions play right offshore. If you keep a close eye, orcas and otters will also make an appearance about once a week.</p>
+								<p><img src="media/tongasstreehouse/houseApril2023.jpg" style="width: 90%;"></p>
+								<p style="text-align: right; width: 90%; font-style: italic;">The Tongass Treehouse during the remodel, photo taken in mid-April 2023 showing the new 24' lower balcony and even bigger upper deck. The top two stories are the Orcaview Cabin, with the Otter Den Studio below.</p>
+								<p>The Tongass Treehouse consists of the Orcaview Cabin (3 bedroom / 1.5 bath) and Otter Den Studio, which sits below. They share the same incredible view, but are <strong>completely separate units with private entrances and private decks</strong>. The only shared space is the laundry room.</p>
+								<p>Being up in the canopy, with trees used as pilings to support the house, most people who come over affectionately reference it as <em>the treehouse</em>, which is where it got the name <strong>Tongass Treehouse</strong>.</p>
+							</div>
+						</div>
+						<div class="row">
+							<p class="h2" style="width: 100%">The important bits</p>
+							
+							<p>The day prior to your arrival, we will send you a message over the app which has the confidential information such as your check-in code for the door and our contact information.</p>
+
+							<p>You have a place to park in the gravel driveway (excess parking is available in the roundabout, just past the mailboxes). 
+								YYou will be staying in the Orcaview Cabin, when you go down the stairs you reach the laundry room first, keep walking towards to the ocean view and the entrance is there, on the side of the house. 
+								You can access your unit with the code sent in the app, and WiFi is ‘treehouse_guest’ with password sent via the app. 
+								There is a TV with apps you can sign into (don’t forget to sign out when you leave, though you can always sign out remotely if you forget). 
+								Check-in is 3pm and check-out is 11am.
+								Late check-in or checkout can sometimes be accomodated for a fee, but it depends on our cleaner's availability.
+							</p>
+							<p>
+								This is our home that we share while we are away for work. 
+								The usual rules apply about not smoking or having parties, but we also want to let you know we have a septic system on a hillside with pumps, 
+								so the only thing you can flush is the provided toilet paper, everything else can be thrown away (even if the packaging claims it is septic safe). 
+								We ask that you limit loud noises on the deck to help wildlife feel comfortable enough to hang out.
+								
+							</p>
+							<p>
+								There is a main thermostat in the entry area, the baseboards on the south side are independently controlled with an on-unit thermostat, and each bedroom is independently-controlled.
+								If you have good weather and want to leave doors open, we thank you for turning off the baseboards.
+								
+							</p>
+							<p>
+								We are active at responding on this app, for urgent issues you can reach us at the phone number provided in the app.
+								
+							</p>
+							<p><strong>We are avid short term rental users ourselves</strong>, and as hosts we stay out of your way and give you space, but we are here as a resource to make the most of your trip. 
+								We grew up right here in Tee Harbor and are familiar with Juneau’s hiking, wildlife, shopping, and restaurants, and can help you to make your own Alaskan adventure.
+							</p>
+							<p>
+								We want you to enjoy your trip, so while we won't impose unsolicited suggestions, we are highly available - please let us know if you have any questions about the house, 
+								what to bring (eg. binoculars) or anything to help make the most of your trip.
+								
+							</p>
+							<p>
+								Additionally, if you're okay with it, we'd love to share photos and/or stories of your adventures on our website or social media!
+								<br /><br />
+								<span style="position: relative; margin-top: 15px">
+								<a href="https://www.instagram.com/tongass_treehouse/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+							
+								&nbsp;
+								<a href="https://www.facebook.com/profile.php?id=100089817160481" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+								&nbsp; 
+								<!--
+								<a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+								&nbsp; 
+								-->
+								<a href="https://www.youtube.com/channel/UCIqQymyOHUJcHHOSF_cfeCA" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+								&nbsp;</span>
+							</p>
+						</div>
+						
+						<div class="row">
+							<p class="h2" style="width: 100%">The detailed bits</p>
+
+							<img src="media/maps/where.png" width="95%" style="padding-bottom: 10px;" />
+							
+							<p class="h4">Parking</p>
+							<p>The area we are located is called “out-the-road”, or more specifically, north Tee Harbor. We are 12 miles from the airport and 20 miles from downtown Juneau. 
+								You can park a car at the top of the stairs in the gravel driveway, if you need to park an additional car, there is a roundabout just down the slope with space. 
+								If you are parked next to the garbage shed on Monday night, be aware that our neighbor takes our garbage out on Tuesday morning bright and early, so leave some space to open the door. 
+								We will send a message as a reminder on Monday night.
+								Also, bears have a keen sense of smell and if you leave food in your car, there is a chance a bear will smell it and try to get in.
+							</p>
+							<p class="h4">Self check-in</p>
+							<p>You press the Yale icon at the top of the lock to activate the keypad, type in your code, then hit the checkmark.
+								If you run into any issues, let us know ASAP (if your cell signal is not good at the house, it is usually much better at the parking area).
+							</p>
+							<p class="h4">We are available!</p>
+							<p>Should you run into any issues, please notify us via the app. If urgent, please call/text us. We can summarize the conversation in the app afterwards. 
+								If email works better for some reason, we can be reached at the email address provided in the app.
+							</p>
+							<p class="h4">Our wildlife</p>
+							<p>The wilderness surrounding the Tongass Treehouse is packed with wildlife, more than anywhere else we’ve been in town! 
+								We have noticed that when we make a lot of noise on the deck/balcony, the wildlife keeps its distance, even a few weeks later. 
+								We ask that you help us make the wildlife feel at home by not making loud/excessive noise when on the decks/balcony.
+								 Our neighbors all do the same, as we all want to welcome nature!
+							</p>
+							<p>That said, if the porcupines, marmots or other resident creatures are walking around on the deck, please do not feed or otherwise encourage them. 
+								We have politely escorted them (from a safe distance) off the deck. They are adorable, but have learned they can leave poop and fleas wherever they walk! :P
+							</p>
+							<p>This is not just bear country, we live out the road - people in town refer to our area as “big bear country”. Keep your distance, don’t feed them, and any food or garbage can attract them. 
+								We generally have bear spray in your unit, feel free to grab it when you go on hikes if it’s available. There is also usually bug spray - not really needed at the house, but most other wilderness areas have plenty of mosquitoes.
+							</p>
+							<p class="h4">The Treehouse, rules and safety</p>
+							<p>As far as cleaning goes, when we are AirBnB guests ourselves, we don’t like a long list of check out chores, so we don’t ask that of our guests. 
+								The only important factor is garbage due to bears: if garbage bags are left outside, they will immediately attract bears. 
+								If you need to empty your garbage during your stay, we have a bear-proof garbage shed and you can leave your garbage in the shed in the bin with a locking black lid. 
+								You are welcome to leave it otherwise, as our cleaners handle everything. 
+								We also are signed up for recycling, which is the bin with a blue lid (for information on what is acceptable to recycle, you can see https://www.alaskawaste.com/service-areas/juneau/residential/).
+							</p>
+							<img src="media/tongasstreehouse/orcaview/IMG_7668.jpg" class="float-right" width="40%" />
+							<p>To avoid gravel getting caught in shoes and scratching the floors, we have provided some washable slippers you’re welcome to use.
+
+							</p>
+							<p>We also want to emphasize we are a house on a cliff with a delicate septic that involves various pumps, <span style="color: rgb(236, 78, 78); font-weight: bold;">so absolutely no wipes can be flushed</span>, even if the package says they are flushable and septic safe.
+								Only the provided toilet paper may be flushed, nothing else. It is important that all guests are aware of this, so please pass the message along.
+							</p>
+							<p>If you are going to smoke, we provided two receptacles up the stairs by the road, please do not smoke at the house or deck/balcony. 
+								We are sticklers about this because there was a fire from someone smoking near the house, and the smell of people smoking lingers and requires treatment.
+							</p>
+							<p>The string lights on the balcony are automatic based on sunset time. If the light bothers you, there's a button to turn them off where they are plugged in.
+							</p>
+							<p>Safety - there are new CO/smoke detectors throughout the house, fire extinguishers around the house (eg. under sink and under stairs) and a fire escape ladder at the top of the stairs.
+							</p>
+							<p>We have provided an electric fireplace and electric wood stove in lieu of the actual wood stove. Our insurance does not allow actual fire to be used.</p>
+							<p>
+								There is a laundry room you’re welcome to use. It’s accessible outside. (It’s accessible from inside next to the fridge as well, but we ask you to keep that door locked because the Laundry room is also accessible to the Otter Den Studio below).
+
+							</p>
+							<p class="h4">Beach access</p>
+							<p>There is beach access a short walk away via the Tee Harbor Trail. We’d love beach access right here at the house, but the cliff as it stands is not safe, so instead use the public trails for beach and forest access. There are countless beaches all along Glacier Highway, both marked and unmarked. Some of our favorites are (in order of south to north): Auke Rec, Lena, The Shrine, Eagle Beach, Sunshine Cove.</p>
+							<p>This is ‘easy’ bear sighting season. There are lots of bear (especially sows with cubs!) visible along Glacier Highway right outside Cohen Drive, with the highest density about a mile in each direction (we commonly see bear from Tee Harbor to the Shrine of St. Therese). We see bear nearly every day, and often several times per day if we make several trips. Best times seem to be early morning and evenings after 7pm. There are a lot of people from town who drive this stretch of road for easy bear sightings from the safety of their car due to the abundance of bear!
+
+							<p class="h4">Thank you!</p>
+							</p>
+							<p>This is our home, not a dedicated rental, so if anything seems amiss or goes wrong please let us know ASAP so we can fix it. We want our home in good working order. :) Your stay here should be equipped with everything you need, but if there is something you think would improve the unit, or you have any general thoughts we’d love direct feedback on it!
+							</p>
+							<p>Let us know if there is anything we can do to make your stay more pleasant.</p>
+							<p></p>
+
+						</div>
+
+						<hr />
+
+
+
+						</div>
+						<hr>
+						<div class="row">
+							<hr />
+
+
+<!-- END MAIN CONTENT -->
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+	<br>
+
+
+</body>
+</html>
+
+
+
+
