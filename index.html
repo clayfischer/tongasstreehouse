@@ -46,14 +46,15 @@
 		.dropdown-submenu-wild, 	.dropdown-submenu-wild:hover 	{ color: #3cab5d;}
 		.dropdown-submenu-connect, 	.dropdown-submenu-connect:hover { color: #b462bd;}
 
-
-		.dropdown-submenu { font-size: 0.8em; padding-left: 40px; font-weight: bold; }
+		.dropdown-item { font-size: 1.2em; padding-bottom: 8px; padding-top: 8px;}
+		.dropdown-submenu { font-size: 1.2em; padding-left: 40px; font-weight: normal; }
 	
 		.nav-item { margin-right: 6px; margin-bottom: 5px; }
 
+		.lead { font-size: 1.5em; }
 		.card-body, p { font-size: 1.1em; }
  		.card-text { font-size: 0.9em }
-
+		.btn { font-size: 1.0em; }
 
 	.jumbotron-container {
 		background-repeat: no-repeat;
@@ -80,63 +81,40 @@
 
 <body>
 	
-	<div class="container-fluid" style="width: 90%">
+	<div class="container-fluid" style="width: 90%;">
 
 		<div style="float: right; padding-top: 10px;">
 			
-			<span style=" position: relative; top: 10px; color: #666666; font-size: 1.2em; font-weight: bold;">Orcaview Cabin &nbsp;</span>
+			<span style=" position: relative; top: 10px; color: #666666; font-size: 1.2em; font-weight: bold;">Orcaview Cabin: &nbsp;</span>
 
 			<div style="float: right; padding-top: 10px;">
 				<a href="https://airbnb.com/h/tongasstreehouse" target="_blank"><img src="airbnb.png" height="26" /></a>
 				&nbsp;
-				<!--
-				<span style=" position: relative; top: 10px;">
-				&nbsp;
-				<a href="https://airbnb.com/h/tongasstreehouse" target="_blank"><i class="fa-brands fa-airbnb fa-2x"></i></a>
-				&nbsp;</span>
-				-->
 				<a href="https://www.vrbo.com/3119007" target="_blank"><img src="vrbo.png" height="26" /></a>
 			</div>
 
 			<br /><br />
-			<span style=" position: relative; top: 12px; color: #666666; font-size: 1.2em; font-weight: bold;">Otter Den Studio</span>&nbsp;&nbsp;&nbsp;
-
-			<div style="float: right; padding-top: 10px;">
+			<div style="float: right; padding-top: 10px; border-top: 1px solid #cccccc;">
+			<span style=" position: relative; color: #666666; font-size: 1.2em; font-weight: bold;">Otter Den Studio:</span>&nbsp;&nbsp;&nbsp;
 				<a href="https://airbnb.com/h/tongasstreehouse-otterden" target="_blank"><img src="airbnb.png" height="26" /></a>
 				&nbsp;
-<!--
-				<span style=" position: relative; top: 10px;">
-				&nbsp;
-				<a href="https://airbnb.com/h/tongasstreehouse-otterden" target="_blank"><i class="fa-brands fa-airbnb fa-2x"></i></a>
-				&nbsp;</span>
--->
 				<a href="https://www.vrbo.com/3119594" target="_blank"><img src="vrbo.png" height="26" /></a>
 			</div>
 			<br /><br />
 
 
 		</div>
-			<div style="float: right; padding-top: 17px; padding-right: 20px;">
-				<a href="https://www.instagram.com/tongass_treehouse/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-				&nbsp;
-				<a href="https://www.facebook.com/profile.php?id=100089817160481" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-				&nbsp; 
-				<!--
-				<a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
-				&nbsp; 
-				-->
-				<a href="https://www.youtube.com/channel/UCIqQymyOHUJcHHOSF_cfeCA" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-				&nbsp;
-			</div>
 
 		<div class="row">
 			<a href="http://www.tongasstreehouse.com"><img src="logo6.png" style="margin-top: 15px; max-width: 450px; z-index:-5; position: relative;" /></a>
 		</div>
 
+		<!-- <div style="float: right;">Follow our adventures</div> -->
+
 		<div class="row" style="margin-bottom: 30px; margin-top: 30px;">
 
-
 			<nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; padding: 0 !important; margin: 0 !important;">
+				
 				<button style="margin-bottom: 10px;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -146,14 +124,14 @@
 						<li class="nav-item tt-about rounded dropdown">
 							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="#navbarText" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About the Treehouse</a>
 								<div class="dropdown-menu dropdown-menu-about" aria-labelledby="navbarNavDropdown">
-									<a class="dropdown-item" href="about.html#tour">Tour our home</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="">Orcaview Cabin (3 bed/1.5 bath)</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="">Otter Den (studio)</a>
+									<a class="dropdown-item" href="about.html#tour">About the Tongass Treehouse</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="about.html#orcaview">Orcaview Cabin (3 bed/1.5 bath)</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="about.html#orcaview">Otter Den (studio)</a>
 									<a class="dropdown-item" href="about.html#amenities">Amenities</a>
-									<a class="dropdown-item" href="">How we are different</a>
-									<a class="dropdown-item" href="">Rules and Safety</a>
-									<a class="dropdown-item" href="">Preparations and Provisions</a>
-									<a class="dropdown-item" href="">Our story and the remodel</a>
+									<a class="dropdown-item" href="about.html#different">How we are different</a>
+									<a class="dropdown-item" href="about.html#safety">Rules and Safety</a>
+									<a class="dropdown-item" href="about.html#preparation">Preparations and Provisions</a>
+									<a class="dropdown-item" href="about.html#aboutus">Our story</a>
 								</div>
 							</h5>
 						</li>
@@ -161,7 +139,7 @@
 							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="#navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome to Juneau</a>
 								<div class="dropdown-menu dropdown-menu-welcome" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="">Fun facts about Juneau</a>
-									<a class="dropdown-item" href="">The Typical Tour</a>
+									<a class="dropdown-item" href="">A tour of town</a>
 									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Downtown</a>
 									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">The Valley</a>
 									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Out the Road</a>
@@ -200,7 +178,7 @@
 							</h5>
 						</li>
 						<li class="nav-item dropdown tt-connect-with-us rounded">
-							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connect with us</a>
+							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Adventure with us</a>
 								<div class="dropdown-menu dropdown-menu-connect" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="">Share your photos!</a>
 									<a class="dropdown-item" href="">Social media</a>
@@ -213,7 +191,17 @@
 			
 					</ul>	 
 				</div>
+				
+			<div style="float: right;">
+				<a href="https://www.instagram.com/tongass_treehouse/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+				&nbsp;
+				<a href="https://www.facebook.com/tongass.treehouse" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+				&nbsp;
+				<a href="https://www.youtube.com/channel/UCIqQymyOHUJcHHOSF_cfeCA" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+				&nbsp;
+			</div>
 			</nav>
+			
 		</div>
 	</div>
 
@@ -233,21 +221,24 @@
 						<div class="card">
 							<img class="card-img-top" src="media/tongasstreehouse/orcaview/deck.jpg" alt="Card image cap">
 							<div class="card-body">
-								<h5 class="card-title">Remodel updates</h5>
-								<p class="card-text">We have finished most of the remodel in May 2023.</p>
-								<p class="card-text">For the <strong>Orcaview Lodge</strong> we have a brand new wrap-around deck, remodeled kitchen with all new appliances, one brand new bathroom with walk-in shower and heated floors (including shower and shower bench) 1700 sq feet of new flooring.</p>
+								<h5 class="card-title">Alaska like a local</h5>
+								<p>Most of the 1.7 million visitors get the same cookie-cutter experience: they see countless jewelry shops, then get shuffled onto a bus to see one or two sights as quickly as possible before being shuffled back to the boat.</p>
+								<p>The treehouse allows you to experience Alaska like a local. You can go adventuring during the day, work remotely with our fast internet, or just sit back and relax on the deck whale watching with a glass of wine.</p>
+								<!-- 
+								<p class="card-text">For the <strong>Orcaview Lodge</strong> we have a brand new wrap-around deck, remodeled kitchen with all new appliances, one brand new bathroom with walk-in shower and heated floors (including shower and shower bench).</p>
 								<p class="card-text">In the <strong>Otter Den</strong> there's a brand-new bathroom with heated floors (including the walk-in shower!), new flooring throughout, a brand new expansive 24' balcony and a custom kitchen with bar and all-new appliances.</p>
-								<p class="card-text">There is also access to the laundry room with two brand new washer/dryer pairs. 
+								<p class="card-text">Both units have access to the laundry room with two brand new washer/dryer pairs. 
+									-->
 							</div>
 						</div>
 
 						<br />
 
 						<div class="card">
-							<img class="card-img-top" src="media/tongasstreehouse/orcaview/mediumroom.jpg" alt="Card image cap">
+							<img class="card-img-top" src="media/tongasstreehouse/orcaview/bedview.jpg" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">Can I book a long-term stay?</h5>
-								<p class="card-text">This is our home and we live here when it's not being rented out. Because of this, we don't do long term stays over summer.</p>
+								<p class="card-text">This is our home, we live here when it's not being rented out. Because of this, we don't do long term stays over summer.</p>
 								<p class="card-text">However, we are open to winter stays between October through April (particularly for the the 3 bed/1.5 bath Orcaview Cabin) if you are looking for a fully-furnished residence.</p>
 							</div>
 						</div>
@@ -285,10 +276,11 @@
 								<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 								</p> -->
 							</div>
-								<p><img src="media/wildlife/eagle.jpg" style="width: 90%;"></p>
+								<img src="media/wildlife/eagle.jpg" style="width: 99%;">
 								<p>Bald eagles are year-round residents at the Tongass Treehouse. They hang out in the branches around our deck and throughout the year are vocal<i class="fas fa-info-circle popoveradjust" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="top" data-container="body" data-html="true"
 									title="The eagle sound you typically hear in movies is the red-tailed hawk"
 									data-content="Many visitors are quite surprised when they first hear a bald eagle vocalizing. It's a sharp, loud sound that's quite different from the red-tailed hawk calls."></i> and catching fish right offshore. </p>
+									<a href="#" class="btn btn-primary">&raquo; Learn more about our wildlife</a>
 <!--
 							<div class="p-5 text-center bg-image rounded-3" style="
 								background-image: url('sunset.png');
