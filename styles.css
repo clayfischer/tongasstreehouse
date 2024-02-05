@@ -7,7 +7,7 @@
 
 
 .main-body {
-    font-size:14px;
+    font-size:15px;
     width: 90%;
     margin: 0% 5%;
     margin-top: 15px; }
@@ -24,10 +24,17 @@ nav {
 
 .nav-button {
     font-weight: 600;
-    font-size: 1.4em;
     padding: 4px;
     margin: 0px; }
 
+    .page-title {
+        font-weight: 600;
+        font-size: 1.9em;
+        color: #ffffff;
+        padding: 10px;
+        margin: 0px; }
+
+    .title-full { width: 100%; margin: 0;}
 
 .popover {
     max-width:800px; }
@@ -55,3 +62,54 @@ nav {
     text-decoration: none;
     background-color: transparent !important; }
 */
+
+
+.dropdown-menu-about 	{ background-color: #ffffff; border: 1px solid #c24c4c;} 
+.dropdown-menu-welcome 	{ background-color: #ffffff; border: 1px solid #0885d4;}
+.dropdown-menu-insider 	{ background-color: #ffffff; border: 1px solid #fa7414;}
+.dropdown-menu-wild 	{ background-color: #ffffff; border: 1px solid #3cab5d;}
+.dropdown-menu-connect 	{ background-color: #ffffff; border: 1px solid #b462bd;}
+
+
+.dropdown-submenu-about, 	.dropdown-submenu-about:hover 	{ color: #c24c4c;} 
+.dropdown-submenu-welcome, 	.dropdown-submenu-welcome:hover { color: #0885d4;}
+.dropdown-submenu-insider, 	.dropdown-submenu-insider:hover	{ color: #fa7414;}
+.dropdown-submenu-wild, 	.dropdown-submenu-wild:hover 	{ color: #3cab5d;}
+.dropdown-submenu-connect, 	.dropdown-submenu-connect:hover { color: #b462bd;}
+
+.about { color: #c24c4c;;}
+.welcome { color: #0885d4; }
+.insider { color: #fa7414;}
+.wild { color: #3cab5d; }
+.connect { color: #b462bd; }
+
+
+.dropdown-item { font-size: 1.2em; padding-bottom: 8px; padding-top: 8px;}
+.dropdown-submenu { font-size: 1.2em; padding-left: 40px; font-weight: normal; }
+
+.nav-item { margin-right: 6px; margin-bottom: 5px; }
+
+.lead { font-size: 1.5em; }
+.card-body, p { font-size: 1.1em; }
+ .card-text { font-size: 0.9em }
+.btn { font-size: 1.0em; }
+
+.jumbotron-container {
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+filter: opacity(60%);
+}
+
+.resume-jumbotron {
+background-image: url(https://content.codecademy.com/courses/asp-dot-net/boots.png);
+}
+
+.layer {
+background-color: #512F1E;
+position: relative;
+}
+
+.jumbotron-header {
+font-weight: bold;
+}

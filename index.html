@@ -10,9 +10,6 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
- 
-
-	<link rel="stylesheet" href="styles.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
 
@@ -31,52 +28,8 @@
 
 	</script>
 
-	<style>
+	<link rel="stylesheet" href="styles.css">
 
-		.dropdown-menu-about 	{ background-color: #ffffff; border: 1px solid #c24c4c;} 
-		.dropdown-menu-welcome 	{ background-color: #ffffff; border: 1px solid #0885d4;}
-		.dropdown-menu-insider 	{ background-color: #ffffff; border: 1px solid #fa7414;}
-		.dropdown-menu-wild 	{ background-color: #ffffff; border: 1px solid #3cab5d;}
-		.dropdown-menu-connect 	{ background-color: #ffffff; border: 1px solid #b462bd;}
-
-
-		.dropdown-submenu-about, 	.dropdown-submenu-about:hover 	{ color: #c24c4c;} 
-		.dropdown-submenu-welcome, 	.dropdown-submenu-welcome:hover { color: #0885d4;}
-		.dropdown-submenu-insider, 	.dropdown-submenu-insider:hover	{ color: #fa7414;}
-		.dropdown-submenu-wild, 	.dropdown-submenu-wild:hover 	{ color: #3cab5d;}
-		.dropdown-submenu-connect, 	.dropdown-submenu-connect:hover { color: #b462bd;}
-
-		.dropdown-item { font-size: 1.2em; padding-bottom: 8px; padding-top: 8px;}
-		.dropdown-submenu { font-size: 1.2em; padding-left: 40px; font-weight: normal; }
-	
-		.nav-item { margin-right: 6px; margin-bottom: 5px; }
-
-		.lead { font-size: 1.5em; }
-		.card-body, p { font-size: 1.1em; }
- 		.card-text { font-size: 0.9em }
-		.btn { font-size: 1.0em; }
-
-	.jumbotron-container {
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
-		filter: opacity(60%);
-	}
-
-	.resume-jumbotron {
-		background-image: url(https://content.codecademy.com/courses/asp-dot-net/boots.png);
-	}
-
-	.layer {
-		background-color: #512F1E;
-		position: relative;
-	}
-
-	.jumbotron-header {
-		font-weight: bold;
-	}
-
-	</style>
 </head>
 
 <body>
@@ -126,7 +79,7 @@
 								<div class="dropdown-menu dropdown-menu-about" aria-labelledby="navbarNavDropdown">
 									<a class="dropdown-item" href="about.html#tour">About the Tongass Treehouse</a>
 									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="about.html#orcaview">Orcaview Cabin (3 bed/1.5 bath)</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="about.html#orcaview">Otter Den (studio)</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-about" href="about.html#otterden">Otter Den (studio)</a>
 									<a class="dropdown-item" href="about.html#amenities">Amenities</a>
 									<a class="dropdown-item" href="about.html#different">How we are different</a>
 									<a class="dropdown-item" href="about.html#safety">Rules and Safety</a>
@@ -138,53 +91,53 @@
 						<li class="nav-item tt-welcome rounded dropdown">
 							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="#navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome to Juneau</a>
 								<div class="dropdown-menu dropdown-menu-welcome" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="">Fun facts about Juneau</a>
-									<a class="dropdown-item" href="">A tour of town</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Downtown</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">The Valley</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Out the Road</a>
-									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="">Douglas and Surrounds</a>
-									<a class="dropdown-item" href="">Southeast Alaska</a>
-									<a class="dropdown-item" href="">Alaska Natives</a>
-									<a class="dropdown-item" href="">Weather</a>
+									<a class="dropdown-item" href="juneau.html">About Juneau</a>
+									<a class="dropdown-item" href="juneau.html#tour">A tour of town</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="juneau.html#downtown">Downtown</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="juneau.html#valley">The Valley</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="juneau.html#outtheroad">Out the Road</a>
+									<a class="dropdown-item dropdown-submenu dropdown-submenu-welcome" href="juneau.html#douglas">Douglas and Surrounds</a>
+									<a class="dropdown-item" href="juneau.html#southeast">Southeast Alaska</a>
+									<a class="dropdown-item" href="juneau.html#alaskanatives">Alaska Natives</a>
+									<a class="dropdown-item" href="juneau.html#weather">Weather</a>
 								</div>
 							</h5>
 						</li>
 						<li class="nav-item tt-wild-alaska dropdown rounded">
 							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wild Alaska</a>
 								<div class="dropdown-menu dropdown-menu-wild" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="">Flora</a>
-									<a class="dropdown-item" href="">Fauna</a>
-									<a class="dropdown-item" href="">Forest</a>
-									<a class="dropdown-item" href="">Beneath the sea</a>
-									<a class="dropdown-item" href="">The intertidal</a>
-									<a class="dropdown-item" href="">Mountains</a>
-									<a class="dropdown-item" href="">Wetlands and water</a>
+									<a class="dropdown-item" href="wild_alaska.html#flora">Flora</a>
+									<a class="dropdown-item" href="wild_alaska.html#fauna">Fauna</a>
+									<a class="dropdown-item" href="wild_alaska.html#forest">Forest</a>
+									<a class="dropdown-item" href="wild_alaska.html#sea">Beneath the sea</a>
+									<a class="dropdown-item" href="wild_alaska.html#intertidal">The intertidal</a>
+									<a class="dropdown-item" href="wild_alaska.html#mountains">Mountains</a>
+									<a class="dropdown-item" href="wild_alaska.html#wetlands">Wetlands and freshwater</a>
 								</div>
 							</h5>
 						</li>
 						<li class="nav-item tt-insider dropdown rounded">
 							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Insider Adventure</a>
 								<div class="dropdown-menu dropdown-menu-insider" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="">Etiquette</a>
-									<a class="dropdown-item" href="">Hiking</a>
-									<a class="dropdown-item" href="">Where to Eat</a>
-									<a class="dropdown-item" href="">What to Cook</a>
-									<a class="dropdown-item" href="">Shop Local</a>
-									<a class="dropdown-item" href="">Off-season + Aurora</a>
-									<a class="dropdown-item" href="">Local Nature Guides</a>
-									<a class="dropdown-item" href="">Fishing</a>
+									<a class="dropdown-item" href="insider_adventure.html#guides">Local Nature Guides</a>
+									<a class="dropdown-item" href="insider_adventure.html#etiquette">Etiquette</a>
+									<a class="dropdown-item" href="insider_adventure.html#hiking">Hiking</a>
+									<a class="dropdown-item" href="insider_adventure.html#eat">Where to Eat</a>
+									<a class="dropdown-item" href="insider_adventure.html#cook">What to Cook</a>
+									<a class="dropdown-item" href="insider_adventure.html#shop">Shop Local</a>
+									<a class="dropdown-item" href="insider_adventure.html#offseason">Off-season + Aurora</a>
+									<a class="dropdown-item" href="insider_adventure.html#fishing">Fishing</a>
 								</div>
 							</h5>
 						</li>
 						<li class="nav-item dropdown tt-connect-with-us rounded">
 							<h5 class="nav-button"><a class="nav-link dropdown-toggle text-white padded-nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Adventure with us</a>
 								<div class="dropdown-menu dropdown-menu-connect" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="">Share your photos!</a>
-									<a class="dropdown-item" href="">Social media</a>
-									<a class="dropdown-item" href="">Plan your adventure</a>
-									<a class="dropdown-item" href="">Come stay with us!</a>
-									<a class="dropdown-item" href="">Contact</a>
+									<a class="dropdown-item" href="adventure.html#share">Share your photos!</a>
+									<a class="dropdown-item" href="adventure.html#socialmedia">Social media</a>
+									<a class="dropdown-item" href="adventure.html#plan">Plan your adventure</a>
+									<a class="dropdown-item" href="adventure.html#stay">Come stay with us!</a>
+									<a class="dropdown-item" href="adventure.html#contact">Contact</a>
 								</div>
 							</h5>
 						</li>
@@ -222,8 +175,9 @@
 							<img class="card-img-top" src="media/tongasstreehouse/orcaview/deck.jpg" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">Alaska like a local</h5>
-								<p>Most of the 1.7 million visitors get the same cookie-cutter experience: they see countless jewelry shops, then get shuffled onto a bus to see one or two sights as quickly as possible before being shuffled back to the boat.</p>
-								<p>The treehouse allows you to experience Alaska like a local. You can go adventuring during the day, work remotely with our fast internet, or just sit back and relax on the deck whale watching with a glass of wine.</p>
+								<p class="card-text">Most of the 1.7 million visitors get the same cookie-cutter experience: they see countless jewelry shops, then get shuffled onto a bus to see one or two sights as quickly as possible before being shuffled back to the boat.</p>
+								<p class="card-text">The treehouse allows you to experience Alaska like a local. You can go adventuring during the day, work remotely with our fast internet, or just sit back and relax on the deck whale watching with a glass of wine.</p>
+								<p class="card-text">All photos were taken by us at our near the Tongass Treehouse!</p>
 								<!-- 
 								<p class="card-text">For the <strong>Orcaview Lodge</strong> we have a brand new wrap-around deck, remodeled kitchen with all new appliances, one brand new bathroom with walk-in shower and heated floors (including shower and shower bench).</p>
 								<p class="card-text">In the <strong>Otter Den</strong> there's a brand-new bathroom with heated floors (including the walk-in shower!), new flooring throughout, a brand new expansive 24' balcony and a custom kitchen with bar and all-new appliances.</p>
@@ -238,7 +192,7 @@
 							<img class="card-img-top" src="media/tongasstreehouse/orcaview/bedview.jpg" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">Can I book a long-term stay?</h5>
-								<p class="card-text">This is our home, we live here when it's not being rented out. Because of this, we don't do long term stays over summer.</p>
+								<p class="card-text">This is our home, we live here when it's not being rented out (and that's why much of the time it is blocked out). Because of this, we don't do long term stays over summer.</p>
 								<p class="card-text">However, we are open to winter stays between October through April (particularly for the the 3 bed/1.5 bath Orcaview Cabin) if you are looking for a fully-furnished residence.</p>
 							</div>
 						</div>
@@ -250,7 +204,7 @@
 							<div class="card-body">
 								<h5 class="card-title">Off-season travel has its benefits</h5>
 								<p class="card-text">Lower airline prices and shorter days make Juneau a nice place to visit in winter - it's typical that you can enjoy a sunrise and sunset without any special planning, and the long, dark evenings give much more opportunity to spot the Aurora borealis.</p>
-								<a href="#" class="btn btn-primary">&raquo; Learn more</a>
+								<a href="insider.html#offseason" class="btn btn-primary">&raquo; Learn more</a>
 							</div>
 						</div>
 <!-- END SIDE BAR CONTENT-->
@@ -280,7 +234,7 @@
 								<p>Bald eagles are year-round residents at the Tongass Treehouse. They hang out in the branches around our deck and throughout the year are vocal<i class="fas fa-info-circle popoveradjust" aria-hidden="true" data-toggle="popover" data-trigger="hover" data-placement="top" data-container="body" data-html="true"
 									title="The eagle sound you typically hear in movies is the red-tailed hawk"
 									data-content="Many visitors are quite surprised when they first hear a bald eagle vocalizing. It's a sharp, loud sound that's quite different from the red-tailed hawk calls."></i> and catching fish right offshore. </p>
-									<a href="#" class="btn btn-primary">&raquo; Learn more about our wildlife</a>
+									<a href="wild_alaska#fauna" class="btn btn-primary">&raquo; Learn more about our wildlife</a>
 <!--
 							<div class="p-5 text-center bg-image rounded-3" style="
 								background-image: url('sunset.png');
