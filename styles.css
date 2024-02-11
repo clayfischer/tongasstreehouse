@@ -37,8 +37,9 @@ nav {
         margin: 0px; }
 
     .title-full { width: 100%; margin: 0; }
-    h1 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #cccccc; }
-    h3 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #eeeeee; color: #999999; }
+h1 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #cccccc; }
+h3 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #eeeeee; color: #999999; }
+h5 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #eeeeee; color: #cccccc; }
 
 .popover {
     max-width:800px; }
