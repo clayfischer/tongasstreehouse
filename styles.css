@@ -1,3 +1,4 @@
+
 .caption { width: 100%; text-align: right; display: block; float: right; padding-top: 10px; padding-bottom: 10px; font-style: italic;}
 
 .tt-about 	{ background-color: #c24c4c }
@@ -37,6 +38,7 @@ nav {
 
     .title-full { width: 100%; margin: 0; }
     h1 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #cccccc; }
+    h3 { width: 100%; padding-top: 20px; margin-top: 20px; padding-bottom: 10px; border-top: 1px solid #eeeeee; color: #999999; }
 
 .popover {
     max-width:800px; }
@@ -115,3 +117,6 @@ position: relative;
 .jumbotron-header {
 font-weight: bold;
 }
+
+
+.gallery-caption { padding: 10px; }
